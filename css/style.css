@@ -1,0 +1,123 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", Verdana;
+  font-size: 20px;
+  line-height: 1.5;
+  padding: auto;
+  margin: 10px 5px;
+  background-color: blanchedalmond;
+}
+
+.main-container {
+  min-height: auto;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background: #a52a2a;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-bottom: #b5c908af 5px double;
+}
+
+h1 {
+  font-family: Verdana, Tahoma, "sans-serif";
+  color: #fff;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: Impact, "Arial Narrow Bold", "sans-serif";
+  color: rgb(9, 194, 194);
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+/*Container holding the image and the text*/
+.container {
+  position: relative;
+  text-align: center;
+  color: #4339d3;
+  width: 100%;
+  height: 100%;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 25px;
+  left: 20px;
+  font-size: 30px;
+}
+
+img {
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+}
+ul {
+  margin: 0px 10px 50px 20px;
+  padding: 30px;
+  height: auto;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+}
+li {
+  float: left;
+  display: inline;
+  padding: 0 10px 0 10px;
+  margin: 0px 20px 30px 30px;
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+
+.images-text {
+  text-align: justify;
+  font-family: Cambria, Cochin, Georgia;
+  font-style: normal;
+}
+.images-text img {
+  width: 400px;
+  height: 500px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.footer {
+  position: absolute;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-top: 20px;
+  width: 100%;
+  height: 1em;
+}
+
+.text p {
+  padding-left: 0;
+  margin: 0;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+}
